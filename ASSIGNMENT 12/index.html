@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nike Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Special Gothic Expanded One', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 20px;
+      border-bottom: 2px solid white;
+    }
+    .logo {
+      width: 100px;
+      height: auto;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav button {
+      background: white;
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .container {
+      margin: 40px auto;
+      max-width: 800px;
+      padding: 20px;
+      border: 2px solid white;
+      overflow: auto;
+    }
+    .image-spot {
+      width: 100%;
+      height: 300px;
+      background-color: #333;
+      margin: 20px 0;
+      border: 2px dashed white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .image-spot img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="3-2-nike-logo-png.png" alt="Nike" class="logo" />
+    <h1>Welcome to Nike</h1>
+    <nav>
+      <button onclick="location.href='video.html'">Go to Video Page</button>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="image-spot">
+      <img src="AS+M+NSW+TEE+ICON+FUTURA.png" alt="Nike Product 1">
+    </div>
+    <div class="image-spot">
+      <img src="nike shirt.png" alt="Nike Product 2">
+    </div>
+    <div class="image-spot">
+      <img src="look.png" alt="Nike Product 3">
+    </div>
+  </div>
+</body>
+</html>
